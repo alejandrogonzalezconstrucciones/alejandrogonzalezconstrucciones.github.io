@@ -1,1 +1,402 @@
-Hello World
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/estilo.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+
+    <title>Alejandro Gonzalez - Construcciones</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="font-size: xx-large;">
+      <div class="container">
+        <a class="navbar-brand fs-4" href="#"
+          ><img src="./img/logo.png" class="img-navbar"
+        /></a>
+        <button
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="sidebar offcanvas offcanvas-start text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home"><p style="font-size: xx-large;">Home</p></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#informacion"><p style="font-size: xx-large;">Info</p></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#mistrabajos"
+                  
+                >
+                <p style="font-size: xx-large;">Mis trabajos</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#info"
+                  
+                >
+                <p style="font-size: xx-large;">Contacto</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    
+
+    <header id="home">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+        data-interval="2000"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div
+            class="carousel-item active"
+            style="background-image: url(./img/con1.jpeg)"
+          >
+            <div class="carousel-caption">
+              <h5>Decks</h5>
+              <p></p>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="background-image: url(./img/con2.jpeg)"
+          >
+            <div class="carousel-caption">
+              <h5>Interiores</h5>
+              <p></p>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="background-image: url(./img/con8.jpeg)"
+          >
+            <div class="carousel-caption">
+              <h5>Isopaneles</h5>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+    <p class="alejandro" style="text-align: center">Alejandro Gonzalez</p>
+    <div class="containerimg">
+    
+    
+    <img src="./img/alejandro.jpeg" alt="" class="circle">
+    </div>
+
+    <br />
+    <br />
+
+    <h2 style="text-align: center" id="informacion">¿Qué trabajos puedo realizar para ti?</h2>
+    <section class="construction-section">
+      <div class="construction-item">
+        <h3>Construcción de Viviendas</h3>
+        <p>Construcciones tanto tradicionales como en isopanel</p>
+      </div>
+      <div class="construction-item">
+        <h3>Construcción en exteriores</h3>
+        <p>
+          Construcciones de decks y pergolas para el patio, barbacoa de tu casa
+        </p>
+      </div>
+      <div class="construction-item">
+        <h3>Renovaciones y Remodelacion</h3>
+        <p>Trabajos de pintura y remodelaciones o construcciones con yeso</p>
+      </div>
+      <div class="construction-item">
+        <h3>Diseño de Interiores</h3>
+        <p>
+          Renovacion o construccion de cero de baños y cocinas para tu vivienda
+        </p>
+      </div>
+      <div class="construction-item">
+        <h3>Aberturas</h3>
+        <p>
+          Puertas, ventanas, ventanales, todo lo necesario para el diseño de tu
+          vivienda
+        </p>
+      </div>
+
+      <!-- Agrega más elementos de trabajo aquí -->
+    </section>
+
+    <br />
+    <br />
+    <h1 class="text-center" id="mistrabajos">Mis trabajos</h1>
+    <section class="galeria" style="margin-top: 5%;">
+      
+      <div class="row">
+        <div class="col-md-6">
+          <a
+            href="./img/con1.jpeg"
+            data-lightbox="galeria"
+            data-title="Deck"
+            target="_blank"
+          >
+          <div class="card mb-4">
+            <img src="./img/con1.jpeg" class="card-img-top" alt="Imagen 1" />
+            <div class="card-body">
+              <h5 class="card-title">Deck</h5>
+            </div>
+          </div>
+        </a>
+        </div>
+        <div class="col-md-6">
+          <a
+            href="./img/con2.jpeg"
+            data-lightbox="galeria"
+            data-title="Deck"
+            target="_blank"
+          >
+          <div class="card mb-4">
+            <img src="./img/con2.jpeg" class="card-img-top" alt="Imagen 1" />
+            <div class="card-body">
+              <h5 class="card-title">Interior</h5>
+            </div>
+          </div>
+        </a>
+        </div>
+        <div class="col-md-6">
+          <a
+            href="./img/con8.jpeg"
+            data-lightbox="galeria"
+            data-title="Deck"
+            target="_blank"
+          >
+          <div class="card mb-4">
+            <img src="./img/con8.jpeg" class="card-img-top" alt="Imagen 1" />
+            <div class="card-body">
+              <h5 class="card-title">Isopaneles</h5>
+            </div>
+          </div>
+        </a>
+        </div>
+        <div class="col-md-6">
+          <a
+            href="./img/con4.jpeg"
+            data-lightbox="galeria"
+            data-title="Deck"
+            target="_blank"
+          >
+          <div class="card mb-4">
+            <img src="./img/con4.jpeg" class="card-img-top" alt="Imagen 1" />
+            <div class="card-body">
+              <h5 class="card-title">Cocina</h5>
+            </div>
+          </div>
+        </a>
+        </div>
+        <div class="col-md-6">
+          <a
+            href="./img/con5.jpeg"
+            data-lightbox="galeria"
+            data-title="Deck"
+            target="_blank"
+          >
+          <div class="card mb-4">
+            <img src="./img/con5.jpeg" class="card-img-top" alt="Imagen 1" />
+            <div class="card-body">
+              <h5 class="card-title">Aperturas</h5>
+            </div>
+          </div>
+        </a>
+        </div>
+        <div class="col-md-6">
+          <a
+            href="./img/con6.jpeg"
+            data-lightbox="galeria"
+            data-title="Deck"
+            target="_blank"
+          >
+          <div class="card mb-4">
+            <img src="./img/con6.jpeg" class="card-img-top" alt="Imagen 1" />
+            <div class="card-body">
+              <h5 class="card-title">Baño</h5>
+            </div>
+          </div>
+        </a>
+        </div>
+        <div class="col-md-6">
+          <a
+            href="./img/con10.jpeg"
+            data-lightbox="galeria"
+            data-title="Deck"
+            target="_blank"
+          >
+          <div class="card mb-4">
+            <img src="./img/con10.jpeg" class="card-img-top" alt="Imagen 1" />
+            <div class="card-body">
+              <h5 class="card-title">Exterior</h5>
+            </div>
+          </div>
+        </a>
+        </div>
+        <div class="col-md-6">
+          <a
+            href="./img/con9.jpeg"
+            data-lightbox="galeria"
+            data-title="Deck"
+            target="_blank"
+          >
+          <div class="card mb-4">
+            <img src="./img/con9.jpeg" class="card-img-top" alt="Imagen 1" />
+            <div class="card-body">
+              <h5 class="card-title">Techos</h5>
+            </div>
+          </div>
+        </a>
+        </div>
+    </section>
+    <br>
+    <h2 style="text-align: center;">Contactame para poder trabajar en tu siguiente proyecto!</h2>
+    
+    <div class="container2" id="info">
+     
+      <div class="text-box">
+        <h3>Soy de</h3>
+        <p>Piriápolis, Maldonado</p>
+      </div>
+      <div class="text-box">
+        <h3>Teléfono</h3>
+        <p>094 829 627</p>
+      </div>
+      <div class="text-box">
+        <h3>Email</h3>
+        <p>thandro09@hotmail.com</p>
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <a href="#top" class="scroll-to-top"></a>
+
+    <br />
+
+    <footer>
+      <div class="logo">
+        <img src="./img/logo.png" class="img-footer" alt="Logo de Mi Página" />
+      </div>
+      <br>
+      <div class="info">
+        <p><i class="fas fa-map-marker-alt"></i> Piriapolis, Maldonado</p>
+        <p><i class="fas fa-phone"></i> 094 829 627</p>
+        <p><i class="fas fa-envelope"></i> thandro09@hotmail.com</p>
+      </div>
+      <div class="copyright">
+        <p>Dedicado al trabajo y mis clientes</p>
+      </div>
+      <div class="copyright">
+        <p style="text-align: center">
+          &copy; 2023 Alejandro Gonzalez Ocampo. Todos los derechos reservados.
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+
+    <script>
+      lightbox.option({
+        resizeDuration: 200,
+        wrapAround: true,
+      });
+    </script>
+
+
+  </body>
+</html>
